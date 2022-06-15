@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  
+	<PropertyGroup>
+		<PrivateAssets>all</PrivateAssets>
+		<TargetFramework>net6.0</TargetFramework>
+		<Description></Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl></PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Farshadhn/Lookif.Library.Report</RepositoryUrl>
+		<PackageReleaseNotes></PackageReleaseNotes>
+		<Authors>Farshad</Authors>
+		<Company>Lookif</Company>
+		<Product>Common functions</Product>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Version>1.0.1</Version>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
+		<FileVersion>1.0.1</FileVersion>
+	</PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Lookif.Library.Common" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
